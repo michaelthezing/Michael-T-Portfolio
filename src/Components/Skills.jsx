@@ -10,9 +10,9 @@ import python from '../assets/Python-logo-notext.svg.png'
 const Skills = () => {
   return (
     <div name = 'skills' className='bg-[#024796]  text-gray-300 h-screen w-full' >
-        <div className='h-full mx-auto max-w-[1000px] p-4 justify-center flex-col w-full'>
+        <div className='h-full mx-auto max-w-[1000px] p-4 justify-center flex flex-col w-full'>
             <div>
-            <h1 className='text-4xl font-bold inline border-b-4 pb-1  border-blue-500'>Technologies</h1>  
+            <h1 className='text-4xl font-bold inline border-b-2 pb-1  '>Technologies</h1>  
             </div>
     
 

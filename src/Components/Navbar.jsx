@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaFacebook, FaGithub, FaLink, FaLinkedin} from 'react-icons/fa'
+import { FaGithub, FaLink, FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import {Link} from 'react-scroll'
@@ -22,10 +22,6 @@ const[nav, setNav] = useState(false)
           </Link></li>
        
 
-            <li> <Link to='projects' smooth={true} duration={500}>
-           Projects
-          </Link></li>
-
             <li>  <Link to='contact' smooth={true} duration={500}>
             Contact Me
           </Link></li>
@@ -40,17 +36,18 @@ const[nav, setNav] = useState(false)
             </a>
         </li>
         <li className ='w-[160px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-red-500'>
-            <a className='flex justify-between items-center w-full text-gray-300 font-bold' href =''>
+            <Link to = 'contact' smooth={true} duration={500} className='flex justify-between items-center w-full text-gray-300 font-bold'>
+                
                 Gmail <HiOutlineMail size = {25}/>
-            </a>
+            </Link>
         </li>
         <li className ='w-[160px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-orange-500'>
-            <a className='flex justify-between items-center w-full text-gray-300 font-bold ' href =''>
+            <a className='flex justify-between items-center w-full text-gray-300 font-bold ' href ='https://media.licdn.com/dms/document/media/D562DAQEQ2CLEJqyyyQ/profile-treasury-document-pdf-analyzed/0/1685583829987?e=1686787200&v=beta&t=_PkoIvJYatNdO8Spnhas8cenp6y_gpwoEb3foVxvfw8'>
                 Resume <BsFillPersonLinesFill size = {25}/>
             </a>
         </li>
         <li className ='w-[160px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-yellow-500'>
-            <a className='flex justify-between items-center w-full text-gray-300 font-bold' href =''>
+            <a className='flex justify-between items-center w-full text-gray-300 font-bold' href ='https://github.com/michaelthezing'>
                 Github <FaGithub size = {25}/>
             </a>
         </li>

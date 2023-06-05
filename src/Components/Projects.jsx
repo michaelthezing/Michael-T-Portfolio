@@ -7,7 +7,7 @@ const Projects = () => {
     <div name = 'projects' className='bg-[#024796]  text-gray-300 h-screen w-full' >
         <div className='h-full mx-auto max-w-[1000px] p-4 justify-center flex-col w-full'>
             <div>
-            <h1 className='text-4xl font-bold inline border-b-4 pb-1 border-blue-500'>Recent Projects</h1>  
+            <h1 className='text-4xl font-bold inline border-b-4 pb-1 '>Recent Projects</h1>  
             </div>
         
 
