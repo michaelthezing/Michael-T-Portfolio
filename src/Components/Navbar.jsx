@@ -42,7 +42,7 @@ const[nav, setNav] = useState(false)
             </Link>
         </li>
         <li className ='w-[160px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-orange-500'>
-            <a className='flex justify-between items-center w-full text-gray-300 font-bold ' href ='https://media.licdn.com/dms/document/media/D562DAQEQ2CLEJqyyyQ/profile-treasury-document-pdf-analyzed/0/1685583829987?e=1686787200&v=beta&t=_PkoIvJYatNdO8Spnhas8cenp6y_gpwoEb3foVxvfw8'>
+            <a className='flex justify-between items-center w-full text-gray-300 font-bold ' href ='https://media.licdn.com/dms/document/media/D562DAQE0-C_0RTT7jw/profile-treasury-document-pdf-analyzed/0/1685947253837?e=1686787200&v=beta&t=GcGk8I6ORtCL5MMVIsRe2O1qFAbVcHTrbkdShKY8v1M'>
                 Resume <BsFillPersonLinesFill size = {25}/>
             </a>
         </li>
